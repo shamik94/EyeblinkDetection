@@ -26,7 +26,7 @@ The amplitude of spontaneous eye blink is in the range of -4 V to 3 V and its du
 
 https://user-images.githubusercontent.com/8223631/119239594-c0774680-bb67-11eb-9686-d5cd57053114.png
 
-https://user-images.githubusercontent.com/8223631/119239605-d553da00-bb67-11eb-966d-a75abe76ffcf.png
+![Screen Shot 2021-05-23 at 1 39 32 AM](https://user-images.githubusercontent.com/8223631/119239605-d553da00-bb67-11eb-966d-a75abe76ffcf.png)
 
 The eye-blink is successfully detected and there is a change in the pulse.
 
