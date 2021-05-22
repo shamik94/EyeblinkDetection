@@ -14,17 +14,17 @@ In comparison to others, voluntary eye blinking  involves multiple areas of the 
 #Methodology
  The EEG signal is sampled using a sampling frequency of 50Hz. The signal is then filtered using a low pass filter with a cut off frequency of 5 Hz to remove high frequency signal.Among all the conditions mentioned above, the voluntary eye blink produced high amplitude EEG signals. A threshold value of ±5 V was used to preserve the peak amplitude and remove the lower amplitude of EEG signals.
  
- https://user-images.githubusercontent.com/8223631/119239537-65ddea80-bb67-11eb-8720-b21f255c461e.png
+![image1](https://user-images.githubusercontent.com/8223631/119239537-65ddea80-bb67-11eb-8720-b21f255c461e.png)
  
  Figure shows the process of filtering, removing low amplitude signal and detecting the eye blinks from EEG signals.The eye blinking information is extracted using an algorithm written in MATLAB. This algorithm detects three adjacent local maxima and minima within a specific amplitude and range that can differentiate between spontaneous eye blink.
 
 
-https://user-images.githubusercontent.com/8223631/119239562-89a13080-bb67-11eb-9efc-2e2b6fa60eeb.png
+![image2](https://user-images.githubusercontent.com/8223631/119239562-89a13080-bb67-11eb-9efc-2e2b6fa60eeb.png)
 
 The amplitude of spontaneous eye blink is in the range of -4 V to 3 V and its duration is less than 400 ms. This EEG signal comprises eye blinking waveforms (below 5 Hz) that have larger amplitude and longer duration (400-500 ms) compared to that obtained from spontaneous eye blink.It is also found that three continuous eye blinks (with a duration of 1.5 to 2.5 seconds between eye closure and opening) are suitable enough to detect eye blink.
 
 
-https://user-images.githubusercontent.com/8223631/119239594-c0774680-bb67-11eb-9686-d5cd57053114.png
+![image3](https://user-images.githubusercontent.com/8223631/119239594-c0774680-bb67-11eb-9686-d5cd57053114.png)
 
 ![Screen Shot 2021-05-23 at 1 39 32 AM](https://user-images.githubusercontent.com/8223631/119239605-d553da00-bb67-11eb-966d-a75abe76ffcf.png)
 
